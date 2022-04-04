@@ -1,0 +1,21 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+  .button-control {
+    display: flex;
+    margin: 20px 0;
+  }
+  .atm-transaction-queue {
+    display: flex;
+    justify-content: space-between;
+   .atm-transaction{
+      .atm {
+        margin: 20px 0;
+      }
+      .transaction {
+        margin-top: 60px;
+      }
+   } 
+  }
+}

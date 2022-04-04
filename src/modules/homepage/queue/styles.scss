@@ -1,0 +1,14 @@
+.queue-container {
+  height: 836px;
+  width: 700px;
+  overflow: hidden;
+  padding: 0 20px;
+  border: 1px solid #9b9b9b;
+  border-radius: 12px;
+  .title {
+    text-align: start;
+  }
+  .item{
+    margin: 20px 0;
+  }
+}

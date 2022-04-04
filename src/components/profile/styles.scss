@@ -1,0 +1,54 @@
+.profile-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  width: 270px;
+  .delete-btn{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    .btn{
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      border: none;
+      &:hover {
+        background-color: #e74c3c;
+      }
+      &:active{
+        background-color: #c0392b;
+      }
+    }
+  }
+  .image {
+    height: 260px;
+    width: 260px;
+
+    border-radius: 12px;
+    margin: 10px 0;
+  }
+  .information{
+    .atm-name{
+      color: red;
+    }
+  }
+  .transaction-atm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transaction-image{
+    img {
+      width: 70px;
+      border-radius: 12px;
+    }
+  }
+  .transaction-information{
+    margin-left: 10px;
+    text-align: left;
+  }
+}

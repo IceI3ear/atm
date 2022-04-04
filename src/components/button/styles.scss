@@ -1,0 +1,16 @@
+.button-container {
+  width: auto;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 12px;
+  color:white;
+  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #9b9b9b;
+  transition: 2s;
+  cursor: pointer;
+  &:active {
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+  }
+}

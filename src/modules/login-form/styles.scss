@@ -1,0 +1,17 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  width: 400px;
+  border-radius: 12px;
+  h2{
+    color: #9b9b9b;
+  }
+  .login-input {
+    width: 75%;
+  }
+  .button-login {
+    margin: 50px 0;
+  }
+}

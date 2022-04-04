@@ -1,0 +1,11 @@
+.button-control-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .button-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+}
